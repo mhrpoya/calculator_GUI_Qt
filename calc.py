@@ -369,7 +369,7 @@ class Ui_view(object):
 "    background-color: white;\n"
 "}")
         self.btn_pm.setObjectName("btn_pm")
-        self.btn0 = QtWidgets.QPushButton(self.centralwidget, clicked= lambda: self.press())
+        self.btn0 = QtWidgets.QPushButton(self.centralwidget, clicked= lambda: self.press("0"))
         self.btn0.setGeometry(QtCore.QRect(90, 470, 75, 75))
         font = QtGui.QFont()
         font.setPointSize(26)
